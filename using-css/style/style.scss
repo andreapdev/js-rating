@@ -1,0 +1,25 @@
+*{
+    font-size: 20vh;
+    line-height: 100%;
+}
+
+.parent{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+i{
+    color: #b4d1d1;
+    margin: 1vw;
+    cursor: pointer;
+}
+
+// When hovering and clicking	
+i:hover, i:hover~i, i.colorOn, i.colorOn~i
+    {
+        color: teal;
+    }
+

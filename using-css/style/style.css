@@ -1,0 +1,32 @@
+* {
+  font-size: 20vh;
+  line-height: 100%;
+}
+
+.parent {
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+i {
+  color: #b4d1d1;
+  margin: 1vw;
+  cursor: pointer;
+}
+
+i:hover, i:hover ~ i, i.colorOn, i.colorOn ~ i {
+  color: teal;
+}
+/*# sourceMappingURL=style.css.map */
